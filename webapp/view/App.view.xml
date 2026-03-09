@@ -1,0 +1,13 @@
+<mvc:View controllerName="be.hogent.hellofiorivc.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <App id="App">
+        <Page id="page"
+            title="{model:'i18n', path:'title'}">
+            <Button id="btnHello"
+                type="Default"
+                text="{custom>/buttonText}"
+                press="onPress"></Button>
+        </Page>
+    </App>
+</mvc:View>
