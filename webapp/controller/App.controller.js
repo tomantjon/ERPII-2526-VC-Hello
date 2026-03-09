@@ -6,7 +6,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/m/MessageToast", "sap/ui/model
       console.log("Controller Loaded");
 
       let obj = {
-        buttonText: "this is dynamic text",
+        buttonText: "I changed this value from BTP",
       };
 
       let customModel = new JSONModel(obj);
